@@ -5,11 +5,11 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
 ## Set Up and Update Database
 
 ## Setup
-* 		Install the required dependencies using:
-bash
 
-* Insert the new halal restaurant opened in Greenwich to the Database.
+1. Insert the new halal restaurant opened in Greenwich to the Database.
+
 *    establishments.insert_one(new_restaurant)
+
   
 * Update the new restauarant with the correct BusineesTypeID.
 

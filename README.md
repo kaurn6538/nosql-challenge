@@ -44,16 +44,6 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
 
 4. How many establishments in each Local Authority area have a hygiene score of 0?
 
-   There are 55 rows in the DataFrame. This is the preview of the first 10 rows:
-
-_id	count
-Thanet	1130
-Greenwich	882
-Maidstone	713
-Newham	711
-Swale	686
-Chelmsford	680
-Medway	672
-Bexley	607
-Southend-On-Sea	586
-Tendring	542
+   There are 55 rows in the DataFrame.
+   This is the preview of the first 10 rows:
+   

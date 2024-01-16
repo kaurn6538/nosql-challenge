@@ -4,16 +4,14 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
 
 ## Set Up and Update Database
 
-## Setup
-
-1. Insert the new halal restaurant opened in Greenwich to the Database.
+*Insert the new halal restaurant opened in Greenwich to the Database.
 
 *    establishments.insert_one(new_restaurant)
 
   
 * Update the new restauarant with the correct BusineesTypeID.
 
-*    establishments.update_one(
+*     establishments.update_one(
         new_restaurant, 
         {'$set': 
             {'BusinessTypeID': 1}
@@ -21,10 +19,10 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
     )
 * Drop all establishments that has Dover as their Local Authority from the database.
 
-*    establishments.delete_many({'LocalAuthorityName': 'Dover'})
+*     establishments.delete_many({'LocalAuthorityName': 'Dover'})
   * Convert latitude and longitude to decimal numbers.
 
-*    establishments.update_many({}, [{'$set': {'geocode.longitude': {'$toDouble': '$geocode.longitude'}, 
+*     establishments.update_many({}, [{'$set': {'geocode.longitude': {'$toDouble': '$geocode.longitude'}, 
                                                'geocode.latitude': {'$toDouble': '$geocode.latitude'}
                                               }
                                  }

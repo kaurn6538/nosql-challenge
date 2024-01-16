@@ -46,4 +46,5 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
 
    There are 55 rows in the DataFrame.
    This is the preview of the first 10 rows:
+   <img width="280" alt="Screenshot 2024-01-16 at 4 07 52 PM" src="https://github.com/kaurn6538/nosql-challenge/assets/98873779/84f4297b-2465-4679-b27f-3a3cfb571034">
    

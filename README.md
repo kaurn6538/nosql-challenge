@@ -7,6 +7,7 @@ The NoSQL_setup.ipynb sets up and updates the database. The NoSQL_analysis.ipynb
 * Insert the new halal restaurant opened in Greenwich to the Database.
 
 *    establishments.insert_one(new_restaurant)
+  
 * Update the new restauarant with the correct BusineesTypeID.
 
 *    establishments.update_one(
